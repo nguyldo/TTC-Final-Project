@@ -9,9 +9,12 @@
 import UIKit
 
 private let reuseIdentifier = "Cell"
+fileprivate let screenWidth = UIScreen.main.bounds.width
 
 class GalleryCollectionViewController: UICollectionViewController {
 
+    @IBOutlet weak var galleryCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,12 +25,31 @@ class GalleryCollectionViewController: UICollectionViewController {
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
+        setupCollectionViewCells()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // MARK: - Setup
+    
+    func setupCollectionViewCells() {
+        let layout = UICollectionViewFlowLayout()
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 20, right: 0)
+        
+        let padding: CGFloat = 10
+        let itemWidth = screenWidth/3 - padding
+        let itemHeight = screenWidth/3 - padding
+        
+        layout.itemSize = CGSize(width: itemWidth, height: itemHeight)
+        layout.minimumLineSpacing = 10
+        layout.minimumInteritemSpacing = 10
+        
+        galleryCollectionView.collectionViewLayout = layout
+    }
+    
 
     /*
     // MARK: - Navigation
