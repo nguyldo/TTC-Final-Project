@@ -16,6 +16,8 @@
 		CBD3C1B61EC7B47C006EF063 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3C1B51EC7B47C006EF063 /* DiaryViewController.swift */; };
 		CBD3C1B81EC7B48C006EF063 /* EmailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3C1B71EC7B48C006EF063 /* EmailTableViewController.swift */; };
 		CBD3C1BA1EC7B4A4006EF063 /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3C1B91EC7B4A4006EF063 /* GalleryCollectionViewController.swift */; };
+		CBD3C1BC1EC7B638006EF063 /* EmailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3C1BB1EC7B638006EF063 /* EmailData.swift */; };
+		CBD3C1BE1EC7B6AB006EF063 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3C1BD1EC7B6AB006EF063 /* Email.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		CBD3C1B51EC7B47C006EF063 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		CBD3C1B71EC7B48C006EF063 /* EmailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTableViewController.swift; sourceTree = "<group>"; };
 		CBD3C1B91EC7B4A4006EF063 /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		CBD3C1BB1EC7B638006EF063 /* EmailData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailData.swift; sourceTree = "<group>"; };
+		CBD3C1BD1EC7B6AB006EF063 /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 		CBD3C1B11EC7B3CB006EF063 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CBD3C1BB1EC7B638006EF063 /* EmailData.swift */,
+				CBD3C1BD1EC7B6AB006EF063 /* Email.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 				CBD3C1BA1EC7B4A4006EF063 /* GalleryCollectionViewController.swift in Sources */,
 				CBD3C19C1EC7B0A5006EF063 /* AppDelegate.swift in Sources */,
 				CBD3C1B81EC7B48C006EF063 /* EmailTableViewController.swift in Sources */,
+				CBD3C1BC1EC7B638006EF063 /* EmailData.swift in Sources */,
 				CBD3C1A41EC7B0A5006EF063 /* TTCFinalProject.xcdatamodeld in Sources */,
+				CBD3C1BE1EC7B6AB006EF063 /* Email.swift in Sources */,
 				CBD3C1B41EC7B40A006EF063 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
