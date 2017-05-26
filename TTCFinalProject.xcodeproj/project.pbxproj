@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB5BE3001ED80336000DA0D8 /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BE2FF1ED80336000DA0D8 /* EmailTableViewCell.swift */; };
+		CB5BE3021ED81062000DA0D8 /* EmailDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BE3011ED81062000DA0D8 /* EmailDetailsViewController.swift */; };
 		CBD3C19C1EC7B0A5006EF063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3C19B1EC7B0A5006EF063 /* AppDelegate.swift */; };
 		CBD3C1A11EC7B0A5006EF063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD3C19F1EC7B0A5006EF063 /* Main.storyboard */; };
 		CBD3C1A41EC7B0A5006EF063 /* TTCFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBD3C1A21EC7B0A5006EF063 /* TTCFinalProject.xcdatamodeld */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB5BE2FF1ED80336000DA0D8 /* EmailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
+		CB5BE3011ED81062000DA0D8 /* EmailDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailDetailsViewController.swift; sourceTree = "<group>"; };
 		CBD3C1981EC7B0A5006EF063 /* TTCFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD3C19B1EC7B0A5006EF063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBD3C1A01EC7B0A5006EF063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				CBD3C1B51EC7B47C006EF063 /* DiaryViewController.swift */,
 				CBD3C1B71EC7B48C006EF063 /* EmailTableViewController.swift */,
 				CBD3C1B91EC7B4A4006EF063 /* GalleryCollectionViewController.swift */,
+				CB5BE2FF1ED80336000DA0D8 /* EmailTableViewCell.swift */,
+				CB5BE3011ED81062000DA0D8 /* EmailDetailsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5BE3001ED80336000DA0D8 /* EmailTableViewCell.swift in Sources */,
 				CBD3C1B61EC7B47C006EF063 /* DiaryViewController.swift in Sources */,
 				CBD3C1BA1EC7B4A4006EF063 /* GalleryCollectionViewController.swift in Sources */,
 				CBD3C19C1EC7B0A5006EF063 /* AppDelegate.swift in Sources */,
@@ -185,6 +192,7 @@
 				CBD3C1BC1EC7B638006EF063 /* EmailData.swift in Sources */,
 				CBD3C1A41EC7B0A5006EF063 /* TTCFinalProject.xcdatamodeld in Sources */,
 				CBD3C1BE1EC7B6AB006EF063 /* Email.swift in Sources */,
+				CB5BE3021ED81062000DA0D8 /* EmailDetailsViewController.swift in Sources */,
 				CBD3C1B41EC7B40A006EF063 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +355,7 @@
 				CBD3C1AF1EC7B0A5006EF063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

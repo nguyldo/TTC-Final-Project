@@ -19,11 +19,6 @@ class EmailTableViewController: UITableViewController {
         emailDataObj = EmailData()
         emails = emailDataObj.getEmails()
         
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,6 +31,15 @@ class EmailTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return emails.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! EmailTableViewCell
+        cell.titleLabel.text = emails[indexPath.row].getTitle()
+        cell.emailLabel.text = emails[indexPath.row].getEmail()
+        cell.timeLabel.text = emails[indexPath.row].getTime()
+        cell.contentTextView.text = emails[indexPath.row].getContent()
+        return cell
     }
 
     /*
