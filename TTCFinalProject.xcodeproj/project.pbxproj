@@ -51,6 +51,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB5BE3031ED8E926000DA0D8 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				CBD3C1B71EC7B48C006EF063 /* EmailTableViewController.swift */,
+				CB5BE2FF1ED80336000DA0D8 /* EmailTableViewCell.swift */,
+				CB5BE3011ED81062000DA0D8 /* EmailDetailsViewController.swift */,
+			);
+			name = Email;
+			sourceTree = "<group>";
+		};
+		CB5BE3041ED8E940000DA0D8 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				CBD3C1BB1EC7B638006EF063 /* EmailData.swift */,
+				CBD3C1BD1EC7B6AB006EF063 /* Email.swift */,
+			);
+			name = Email;
+			sourceTree = "<group>";
+		};
 		CBD3C18F1EC7B0A5006EF063 = {
 			isa = PBXGroup;
 			children = (
@@ -85,12 +104,10 @@
 		CBD3C1B01EC7B3BF006EF063 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CB5BE3031ED8E926000DA0D8 /* Email */,
 				CBD3C1B31EC7B40A006EF063 /* HomeViewController.swift */,
 				CBD3C1B51EC7B47C006EF063 /* DiaryViewController.swift */,
-				CBD3C1B71EC7B48C006EF063 /* EmailTableViewController.swift */,
 				CBD3C1B91EC7B4A4006EF063 /* GalleryCollectionViewController.swift */,
-				CB5BE2FF1ED80336000DA0D8 /* EmailTableViewCell.swift */,
-				CB5BE3011ED81062000DA0D8 /* EmailDetailsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -98,8 +115,7 @@
 		CBD3C1B11EC7B3CB006EF063 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CBD3C1BB1EC7B638006EF063 /* EmailData.swift */,
-				CBD3C1BD1EC7B6AB006EF063 /* Email.swift */,
+				CB5BE3041ED8E940000DA0D8 /* Email */,
 			);
 			name = Model;
 			sourceTree = "<group>";
