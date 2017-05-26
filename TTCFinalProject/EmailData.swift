@@ -10,7 +10,7 @@ import Foundation
 
 class EmailData {
 
-    var emails = [Email (title: "Drafted", time: "2/18/62", email: "draft@gov.org", content: "Congratulations, Tim O'Brien! You have been drafted into the Vietnam War!")]
+    var emails = [Email (title: "Drafted", time: "2/18/62", email: "selective_service@gov.org", content: "Congratulations, Tim O'Brien! You have been drafted into the Vietnam War!")]
     
     func getEmails() -> [Email] {
         return emails

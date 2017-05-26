@@ -41,6 +41,18 @@ class EmailTableViewController: UITableViewController {
         cell.contentTextView.text = emails[indexPath.row].getContent()
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "emailSegue" {
+            let emailDetailsVC = segue.destination as! EmailDetailsViewController
+            let indexPath = tableView.indexPath(for: sender as! EmailTableViewCell)
+            emailDetailsVC.localTitle = emails[indexPath!.row].getTitle()
+            emailDetailsVC.localEmail = emails[indexPath!.row].getEmail()
+            emailDetailsVC.localTime = emails[indexPath!.row].getTime()
+            emailDetailsVC.localContent = emails[indexPath!.row].getContent()
+        }
+        
+    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

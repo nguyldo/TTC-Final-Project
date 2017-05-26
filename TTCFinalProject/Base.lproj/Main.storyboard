@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E183b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cle-iN-sOT">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,7 +19,7 @@
                         <viewControllerLayoutGuide type="bottom" id="MDl-qv-dqh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BWs-e8-iCC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -58,7 +58,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wXm-Kj-grW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NWS-iu-TyC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -73,15 +73,15 @@
             <objects>
                 <tableViewController title="Emails" id="HMj-Tr-b7K" customClass="EmailTableViewController" customModule="TTCFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" id="5b9-4t-bf3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="150" id="ho4-oy-qWC" customClass="EmailTableViewCell" customModule="TTCFinalProject" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="150"/>
+                                <rect key="frame" x="0.0" y="28" width="320" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ho4-oy-qWC" id="oDP-Lu-Kdr">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K55-wc-hiB">
@@ -91,7 +91,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcJ-9f-aoa">
-                                            <rect key="frame" x="329" y="8" width="38" height="21"/>
+                                            <rect key="frame" x="274" y="8" width="38" height="21"/>
                                             <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -103,7 +103,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grY-Ju-ml8">
-                                            <rect key="frame" x="16" y="67" width="351" height="74.5"/>
+                                            <rect key="frame" x="16" y="67" width="296" height="74.5"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
@@ -128,7 +128,7 @@
                                     <outlet property="emailLabel" destination="Pqr-bl-YVz" id="xSc-Be-F60"/>
                                     <outlet property="timeLabel" destination="TcJ-9f-aoa" id="k60-FQ-PEy"/>
                                     <outlet property="titleLabel" destination="K55-wc-hiB" id="Vam-uY-Kqo"/>
-                                    <segue destination="ffU-rf-oOh" kind="show" id="cCf-s3-GTR"/>
+                                    <segue destination="ffU-rf-oOh" kind="show" identifier="emailSegue" id="Anb-Vs-I8R"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -143,30 +143,87 @@
             </objects>
             <point key="canvasLocation" x="1599.2" y="903.59820089955031"/>
         </scene>
-        <!--View Controller-->
+        <!--Email Details View Controller-->
         <scene sceneID="4Ld-Rp-60z">
             <objects>
-                <viewController id="ffU-rf-oOh" sceneMemberID="viewController">
+                <viewController id="ffU-rf-oOh" customClass="EmailDetailsViewController" customModule="TTCFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eC3-fM-nFk"/>
                         <viewControllerLayoutGuide type="bottom" id="UNr-gJ-OSJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZYK-ip-lcP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="10m-t3-pN8">
+                                <rect key="frame" x="16" y="79" width="288" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="From: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFu-LZ-eya">
+                                        <rect key="frame" x="0.0" y="0.0" width="142" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="timobrien@ttc.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNi-iN-Zcc">
+                                        <rect key="frame" x="142" y="0.0" width="146" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfc-7B-0cY">
+                                <rect key="frame" x="16" y="114.5" width="105.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YA-cb-697">
+                                <rect key="frame" x="266" y="114.5" width="38" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LcX-uI-2m8">
+                                <rect key="frame" x="16" y="143" width="288" height="368"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="10m-t3-pN8" firstAttribute="top" secondItem="eC3-fM-nFk" secondAttribute="bottom" constant="15" id="4xX-kn-oJw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="10m-t3-pN8" secondAttribute="trailing" id="BA7-Au-TxR"/>
+                            <constraint firstItem="LcX-uI-2m8" firstAttribute="top" secondItem="8YA-cb-697" secondAttribute="bottom" constant="8" id="HNw-dC-KuH"/>
+                            <constraint firstItem="UNr-gJ-OSJ" firstAttribute="top" secondItem="LcX-uI-2m8" secondAttribute="bottom" constant="8" id="HmN-ug-eXq"/>
+                            <constraint firstItem="LcX-uI-2m8" firstAttribute="trailing" secondItem="ZYK-ip-lcP" secondAttribute="trailingMargin" id="NPe-T7-sly"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8YA-cb-697" secondAttribute="trailing" id="V0F-3z-KIa"/>
+                            <constraint firstItem="bfc-7B-0cY" firstAttribute="leading" secondItem="ZYK-ip-lcP" secondAttribute="leadingMargin" id="VwL-B7-jzc"/>
+                            <constraint firstItem="bfc-7B-0cY" firstAttribute="top" secondItem="10m-t3-pN8" secondAttribute="bottom" constant="15" id="p11-MB-n8i"/>
+                            <constraint firstItem="10m-t3-pN8" firstAttribute="leading" secondItem="ZYK-ip-lcP" secondAttribute="leadingMargin" id="pgX-I1-DxO"/>
+                            <constraint firstItem="8YA-cb-697" firstAttribute="top" secondItem="10m-t3-pN8" secondAttribute="bottom" constant="15" id="qqW-17-VGi"/>
+                            <constraint firstItem="LcX-uI-2m8" firstAttribute="leading" secondItem="ZYK-ip-lcP" secondAttribute="leadingMargin" id="zWM-lX-mx7"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentTextView" destination="LcX-uI-2m8" id="PwT-cX-k3N"/>
+                        <outlet property="emailLabel" destination="LNi-iN-Zcc" id="3WK-o9-EH1"/>
+                        <outlet property="timeLabel" destination="8YA-cb-697" id="xJR-w2-m0d"/>
+                        <outlet property="titleLabel" destination="bfc-7B-0cY" id="BKj-GK-5Zh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fyq-lN-PvR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2446" y="904"/>
+            <point key="canvasLocation" x="2445" y="903.16901408450701"/>
         </scene>
         <!--Gallery-->
         <scene sceneID="sZ6-hd-TPf">
             <objects>
                 <collectionViewController title="Gallery" id="bwh-U2-5Eh" customClass="GalleryCollectionViewController" customModule="TTCFinalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="Ccz-Xd-eHh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Ccz-Xd-eHh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oDY-TU-ovJ">
