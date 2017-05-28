@@ -22,7 +22,7 @@ class GalleryCollectionViewController: UICollectionViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
-        self.collectionView!.register(GalleryCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        // self.collectionView!.register(GalleryCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
         setupCollectionViewCells()
@@ -37,7 +37,7 @@ class GalleryCollectionViewController: UICollectionViewController {
     
     func setupCollectionViewCells() {
         let layout = UICollectionViewFlowLayout()
-        layout.sectionInset = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+        layout.sectionInset = UIEdgeInsets(top: 30, left: 30, bottom: 20, right: 20)
         
         let padding: CGFloat = 10
         let itemWidth = screenWidth/3 - padding
@@ -78,7 +78,7 @@ class GalleryCollectionViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! GalleryCollectionViewCell
     
         // Configure the cell
-        cell.mainImage?.image = #imageLiteral(resourceName: "VietnamVeteranSample")
+        cell.mainImage.image = #imageLiteral(resourceName: "VietnamVeteranSample")
         return cell
     }
 
