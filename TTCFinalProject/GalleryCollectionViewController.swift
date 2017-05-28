@@ -78,7 +78,7 @@ class GalleryCollectionViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! GalleryCollectionViewCell
     
         // Configure the cell
-        cell.mainImage.image = UIImage(named: "VietnamVeteranSample.jpg")
+        cell.mainImage?.image = #imageLiteral(resourceName: "VietnamVeteranSample")
         
         return cell
     }
