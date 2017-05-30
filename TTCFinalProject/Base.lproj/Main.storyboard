@@ -76,7 +76,7 @@
                                     </textView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottomMargin" secondItem="8ef-H8-iFL" secondAttribute="bottom" constant="-352" id="Med-Wn-DFN"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="8ef-H8-iFL" secondAttribute="bottom" id="Med-Wn-DFN"/>
                                     <constraint firstItem="8ef-H8-iFL" firstAttribute="leading" secondItem="JGF-VO-nvi" secondAttribute="leadingMargin" id="QYy-k0-hT0"/>
                                     <constraint firstItem="8ef-H8-iFL" firstAttribute="top" secondItem="JGF-VO-nvi" secondAttribute="topMargin" id="cHK-eH-AAQ"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="8ef-H8-iFL" secondAttribute="trailing" id="gqC-1o-9Vt"/>
