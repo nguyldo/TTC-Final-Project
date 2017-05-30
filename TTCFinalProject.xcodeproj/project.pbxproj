@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		600F3D761EDA598600AC08B5 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F3D751EDA598600AC08B5 /* GalleryCollectionViewCell.swift */; };
+		600F3D811EDCF87200AC08B5 /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600F3D801EDCF87200AC08B5 /* FullImageViewController.swift */; };
 		CB5BE3001ED80336000DA0D8 /* EmailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BE2FF1ED80336000DA0D8 /* EmailTableViewCell.swift */; };
 		CB5BE3021ED81062000DA0D8 /* EmailDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5BE3011ED81062000DA0D8 /* EmailDetailsViewController.swift */; };
 		CBD3C19C1EC7B0A5006EF063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3C19B1EC7B0A5006EF063 /* AppDelegate.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		600F3D751EDA598600AC08B5 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		600F3D801EDCF87200AC08B5 /* FullImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
 		CB5BE2FF1ED80336000DA0D8 /* EmailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTableViewCell.swift; sourceTree = "<group>"; };
 		CB5BE3011ED81062000DA0D8 /* EmailDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailDetailsViewController.swift; sourceTree = "<group>"; };
 		CBD3C1981EC7B0A5006EF063 /* TTCFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +60,7 @@
 			children = (
 				CBD3C1B91EC7B4A4006EF063 /* GalleryCollectionViewController.swift */,
 				600F3D751EDA598600AC08B5 /* GalleryCollectionViewCell.swift */,
+				600F3D801EDCF87200AC08B5 /* FullImageViewController.swift */,
 			);
 			name = Gallery;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				CBD3C1BA1EC7B4A4006EF063 /* GalleryCollectionViewController.swift in Sources */,
 				CBD3C19C1EC7B0A5006EF063 /* AppDelegate.swift in Sources */,
 				CBD3C1B81EC7B48C006EF063 /* EmailTableViewController.swift in Sources */,
+				600F3D811EDCF87200AC08B5 /* FullImageViewController.swift in Sources */,
 				CBD3C1BC1EC7B638006EF063 /* EmailData.swift in Sources */,
 				CBD3C1A41EC7B0A5006EF063 /* TTCFinalProject.xcdatamodeld in Sources */,
 				CBD3C1BE1EC7B6AB006EF063 /* Email.swift in Sources */,
