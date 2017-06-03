@@ -10,9 +10,15 @@ import UIKit
 
 class FullImageViewController: UIViewController {
 
+    @IBOutlet var imageView: UIImageView!
+    var image: UIImage = #imageLiteral(resourceName: "VietnamVeteranSample")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        imageView.image = image
+        //imageView.frame.size = CGSize(width: , height: image.size.height)
+        
+        
         // Do any additional setup after loading the view.
     }
 

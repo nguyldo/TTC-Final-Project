@@ -14,6 +14,7 @@ fileprivate let screenWidth = UIScreen.main.bounds.width
 class GalleryCollectionViewController: UICollectionViewController {
 
     @IBOutlet weak var galleryCollectionView: UICollectionView!
+    private var images = [#imageLiteral(resourceName: "VietnamVeteranSample"), #imageLiteral(resourceName: "emailIcon"), #imageLiteral(resourceName: "homeIcon"), #imageLiteral(resourceName: "galleryIcon"), #imageLiteral(resourceName: "vietnamwarimage")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,16 +72,26 @@ class GalleryCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 20
+        return images.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! GalleryCollectionViewCell
     
         // Configure the cell
-        cell.mainImage.image = #imageLiteral(resourceName: "VietnamVeteranSample")
+        cell.mainImage.image = images[indexPath.item]
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "gallerySegue" {
+            let fullImageView = segue.destination as! FullImageViewController
+            let indexPath = collectionView!.indexPath(for: sender as! GalleryCollectionViewCell)
+            fullImageView.image = images[indexPath!.item]
+        }
+    }
+    
+    
 
     // MARK: UICollectionViewDelegate
 
