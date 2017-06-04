@@ -12,10 +12,14 @@ class FullImageViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
     var image: UIImage = #imageLiteral(resourceName: "VietnamVeteranSample")
+    @IBOutlet weak var citation: UILabel!
+    var citationText: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         imageView.image = image
+        citation.text = citationText
+        
         //imageView.frame.size = CGSize(width: , height: image.size.height)
         
         

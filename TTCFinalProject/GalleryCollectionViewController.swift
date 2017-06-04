@@ -15,6 +15,7 @@ class GalleryCollectionViewController: UICollectionViewController {
 
     @IBOutlet weak var galleryCollectionView: UICollectionView!
     private var images = [#imageLiteral(resourceName: "VietnamVeteranSample"), #imageLiteral(resourceName: "emailIcon"), #imageLiteral(resourceName: "homeIcon"), #imageLiteral(resourceName: "galleryIcon"), #imageLiteral(resourceName: "vietnamwarimage")]
+    let galleryData = GalleryData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,7 +88,13 @@ class GalleryCollectionViewController: UICollectionViewController {
         if segue.identifier == "gallerySegue" {
             let fullImageView = segue.destination as! FullImageViewController
             let indexPath = collectionView!.indexPath(for: sender as! GalleryCollectionViewCell)
-            fullImageView.image = images[indexPath!.item]
+            
+            let imageSelected = images[indexPath!.item]
+            fullImageView.image = imageSelected
+            if let citationText = galleryData.galleryData[imageSelected] {
+                fullImageView.citationText = citationText
+            }
+            
         }
     }
     

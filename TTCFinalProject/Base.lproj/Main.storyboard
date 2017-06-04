@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E183b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cle-iN-sOT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cle-iN-sOT">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -91,7 +91,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="835" id="47W-SJ-bSp"/>
                                         </constraints>
-                                        <mutableString key="text">My Final Day on the Rainy River
+                                        <string key="text">My Final Day on the Rainy River
 June 28 1968
  
 “On my last full day, the sixth day, the old man took me out fishing on the Rainy River. The afternoon was sunny and cold.”
@@ -121,7 +121,7 @@ February 14 1990
 “But listen. Even that story is made up. I want you to feel what I felt. I want you to know why story-truth is truer sometimes than happening-truth.”
 “‘Daddy, tell the truth,’ Kathleen can say, ‘did you ever kill anybody?’ And I can say, honestly, ‘Of course not.’ Or I can say, honestly, ‘Yes.’”
 (179-180)
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -162,7 +162,7 @@ February 14 1990
                                 <rect key="frame" x="0.0" y="28" width="320" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ho4-oy-qWC" id="oDP-Lu-Kdr">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K55-wc-hiB">
@@ -371,13 +371,12 @@ February 14 1990
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VietnamVeteranSample" translatesAutoresizingMaskIntoConstraints="NO" id="Gal-4g-IsG">
-                                <rect key="frame" x="0.0" y="64" width="320" height="136"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="AQg-JM-jl4" firstAttribute="top" secondItem="qbh-mg-ytN" secondAttribute="bottom" constant="8" id="IGZ-N0-UXZ"/>
-                            <constraint firstItem="AQg-JM-jl4" firstAttribute="top" secondItem="Gal-4g-IsG" secondAttribute="bottom" constant="319" id="Wxe-85-FVC"/>
                             <constraint firstItem="qbh-mg-ytN" firstAttribute="centerX" secondItem="aye-ax-wC0" secondAttribute="centerX" id="dbL-vJ-skt"/>
                             <constraint firstAttribute="trailing" secondItem="Gal-4g-IsG" secondAttribute="trailing" id="iME-Yh-Gib"/>
                             <constraint firstItem="Gal-4g-IsG" firstAttribute="leading" secondItem="aye-ax-wC0" secondAttribute="leading" id="mJN-oy-f79"/>
@@ -385,6 +384,7 @@ February 14 1990
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="citation" destination="qbh-mg-ytN" id="XxJ-su-SVW"/>
                         <outlet property="imageView" destination="Gal-4g-IsG" id="zzD-kQ-a1k"/>
                     </connections>
                 </viewController>
