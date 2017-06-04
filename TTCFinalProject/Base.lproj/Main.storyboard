@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -371,16 +372,19 @@ February 14 1990
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VietnamVeteranSample" translatesAutoresizingMaskIntoConstraints="NO" id="Gal-4g-IsG">
-                                <rect key="frame" x="0.0" y="64" width="320" height="128"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Gal-4g-IsG" secondAttribute="height" multiplier="1:1" id="UTi-Pb-cRB"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Gal-4g-IsG" firstAttribute="top" secondItem="tDf-qh-NRN" secondAttribute="bottom" id="3Iu-kg-8nu"/>
                             <constraint firstItem="AQg-JM-jl4" firstAttribute="top" secondItem="qbh-mg-ytN" secondAttribute="bottom" constant="8" id="IGZ-N0-UXZ"/>
+                            <constraint firstItem="Gal-4g-IsG" firstAttribute="leading" secondItem="aye-ax-wC0" secondAttribute="leading" id="YdW-l4-Klx"/>
+                            <constraint firstAttribute="trailing" secondItem="Gal-4g-IsG" secondAttribute="trailing" id="aOb-rR-jmM"/>
                             <constraint firstItem="qbh-mg-ytN" firstAttribute="centerX" secondItem="aye-ax-wC0" secondAttribute="centerX" id="dbL-vJ-skt"/>
-                            <constraint firstAttribute="trailing" secondItem="Gal-4g-IsG" secondAttribute="trailing" id="iME-Yh-Gib"/>
-                            <constraint firstItem="Gal-4g-IsG" firstAttribute="leading" secondItem="aye-ax-wC0" secondAttribute="leading" id="mJN-oy-f79"/>
-                            <constraint firstItem="Gal-4g-IsG" firstAttribute="top" secondItem="tDf-qh-NRN" secondAttribute="bottom" id="ntx-rC-TO1"/>
                         </constraints>
                     </view>
                     <connections>
