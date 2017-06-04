@@ -29,19 +29,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tim O'Brien's Journal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Clo-4D-imY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Tim O'Brien" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Clo-4D-imY">
                                 <rect key="frame" x="16" y="50.5" width="288" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="timobrienpic" translatesAutoresizingMaskIntoConstraints="NO" id="91T-Z8-D8u">
+                                <rect key="frame" x="21" y="176" width="278" height="217"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="91T-Z8-D8u" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leadingMargin" constant="5" id="3Fp-7v-uIC"/>
+                            <constraint firstItem="91T-Z8-D8u" firstAttribute="top" secondItem="Clo-4D-imY" secondAttribute="bottom" constant="101.5" id="FHF-9M-7FV"/>
                             <constraint firstItem="Clo-4D-imY" firstAttribute="trailing" secondItem="BWs-e8-iCC" secondAttribute="trailingMargin" id="G0c-ul-5BT"/>
+                            <constraint firstItem="MDl-qv-dqh" firstAttribute="top" secondItem="91T-Z8-D8u" secondAttribute="bottom" constant="126" id="IFb-41-GnY"/>
                             <constraint firstItem="Clo-4D-imY" firstAttribute="top" secondItem="pLR-kt-fV2" secondAttribute="bottom" constant="16" id="NQf-Ry-HMd"/>
                             <constraint firstItem="pLR-kt-fV2" firstAttribute="top" secondItem="HnK-fP-G0m" secondAttribute="bottom" id="Rno-ol-phl"/>
                             <constraint firstItem="Clo-4D-imY" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leadingMargin" id="SK6-ad-hub"/>
+                            <constraint firstItem="91T-Z8-D8u" firstAttribute="centerX" secondItem="BWs-e8-iCC" secondAttribute="centerX" id="UTn-Th-RSH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="91T-Z8-D8u" secondAttribute="trailing" constant="5" id="kIa-9P-Gsf"/>
                             <constraint firstItem="pLR-kt-fV2" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leadingMargin" id="vPK-Q6-L5a"/>
                         </constraints>
                     </view>
@@ -87,42 +95,46 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8ef-H8-iFL">
-                                        <rect key="frame" x="8" y="8" width="304" height="835"/>
+                                        <rect key="frame" x="8" y="8" width="304" height="2322"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="835" id="47W-SJ-bSp"/>
+                                            <constraint firstAttribute="height" constant="2322" id="47W-SJ-bSp"/>
                                         </constraints>
-                                        <string key="text">My Final Day on the Rainy River
+                                        <mutableString key="text">My Final Day on the Rainy River
 June 28 1968
  
-“On my last full day, the sixth day, the old man took me out fishing on the Rainy River. The afternoon was sunny and cold.”
-“It struck me then that he must’ve planned it. I’ll never be certain, of course, but I think he meant to bring me up against the realities, to guide me across the river and to take me to the edge and to stand a kind of vigil as I chose a life for myself.”
-“Would you jump? Would you feel pity for yourself? Would you think about your family and your childhood and your dreams and all you’re leaving behind? Would it hurt? Would it feel like dying? Would you cry, as I did?”
-“Now, perhaps, you can understand why I’ve never told this story before. It’s not just the embarrassment of tears. That’s part of it, no doubt, but what embarrasses me much more, and always will, is the paralysis that took my heart.”
-“I would go to war - I would kill and maybe die - because I was embarrassed not to.”
+On my last full day, the sixth day, the old man took me out fishing on the Rainy River. The afternoon was sunny and cold. It struck me then that he must’ve planned it. I’ll never be certain, of course, but I think he meant to bring me up against the realities, to guide me across the river and to take me to the edge and to stand a kind of vigil as I chose a life for myself. Would you jump? Would you feel pity for yourself? Would you think about your family and your childhood and your dreams and all you’re leaving behind? Would it hurt? Would it feel like dying? Would you cry, as I did? 
+Now, perhaps, you can understand why I’ve never told this story before. It’s not just the embarrassment of tears. That’s part of it, no doubt, but what embarrasses me much more, and always will, is the paralysis that took my heart. I would go to war - I would kill and maybe die - because I was embarrassed not to.
 (55-59)
  
  
 A True War Story
 August 9 1969
  
-“Vietnam was full of strange stories, some improbable, some well beyond that, but the stories that will last forever are those that swirl back and forth across the border between trivia and bedlam, the mad and the mundane. This one keeps returning to me. I heard it from Rat Kiley, who swore up and down to its truth.”
-“The way Rat told it, she came in by helicopter along with the daily resupply shipment out of Chu Lai. A tall, big-boned blonde. At best, Rat said, she was seventeen years old, fresh out of Cleveland Heights Senior High.”
-“What happened to her, Rat said, was what happened to all of them. You come over clean and you get dirty and then afterward it’s never the same.”
-“And then one morning, all alone, Mary Anne walked off into the mountains and did not come back.”
-“She had crossed to the other side. She was part of the land. She was wearing her culottes, her pink sweater, and a necklace of human tongues. She was dangerous. She was ready for the kill.”
+Vietnam was full of strange stories, some improbable, some well beyond that, but the stories that will last forever are those that swirl back and forth across the border between trivia and bedlam, the mad and the mundane. This one keeps returning to me. I heard it from Rat Kiley, who swore up and down to its truth.
+The way Rat told it, she came in by helicopter along with the daily resupply shipment out of Chu Lai. A tall, big-boned blonde. At best, Rat said, she was seventeen years old, fresh out of Cleveland Heights Senior High.
+What happened to her, Rat said, was what happened to all of them. You come over clean and you get dirty and then afterward it’s never the same. And then one morning, all alone, Mary Anne walked off into the mountains and did not come back.
+She had crossed to the other side. She was part of the land. She was wearing her culottes, her pink sweater, and a necklace of human tongues. She was dangerous. She was ready for the kill.
 (89-116)
+ 
+ 
+The Man I Killed
+November 2 1969
+ 
+His jaw was in his throat, his upper lip and teeth were gone, his one eye was shut, his other eye was a star-shaped hole. His chest was sunken and poorly muscled--a scholar, maybe. His life was now a constellation of possibilities. It was entirely automatic. I did not hate the young man; I did not see him as the enemy. There were no thoughts about killing. The grenade was to make him go away--just evaporate--and I leaned back and felt my mind go empty and then felt it fill up again. I had already thrown the grenade before telling myself to throw it.
+Sometimes I forgive myself, other times I don’t. In the ordinary hours of life I try not to dwell on it, but now and then, when I’m reading a newspaper or just sitting alone in a room, I’ll look up and see the young man coming out of the morning fog. I’ll watch him walk toward me, his shoulders slightly stooped, his head cocked to the side, and he’ll pass within a few yards of me and suddenly smile at some secret thought and then continue up the trail to where it bends back into the fog.
+(124-134)
  
  
 The Story Truth
 February 14 1990
  
-“It’s time to be blunt. I’m forty-three years old, true, and I’m a writer now, and a long time ago I walked through Quang Ngai Province as a foot soldier. Almost everything else is invented.”
-“I want to tell you this: twenty years ago I watched a man die on a trail near the village of My Khe. I did not kill him. But I was present, you see, and my presence was guilt enough.”
-“But listen. Even that story is made up. I want you to feel what I felt. I want you to know why story-truth is truer sometimes than happening-truth.”
-“‘Daddy, tell the truth,’ Kathleen can say, ‘did you ever kill anybody?’ And I can say, honestly, ‘Of course not.’ Or I can say, honestly, ‘Yes.’”
-(179-180)
-</string>
+It’s time to be blunt. I’m forty-three years old, true, and I’m a writer now, and a long time ago I walked through Quang Ngai Province as a foot soldier. Almost everything else is invented. I want to tell you this: twenty years ago I watched a man die on a trail near the village of My Khe. I did not kill him. But I was present, you see, and my presence was guilt enough. But listen. Even that story is made up. I want you to feel what I felt. I want you to know why story-truth is truer sometimes than happening-truth.
+‘Daddy, tell the truth,’ Kathleen can say, ‘did you ever kill anybody?’ And I can say, honestly, ‘Of course not.’ Or I can say, honestly, ‘Yes.’
+Much of it is hard to remember. I sit at this typewriter and stare through my words and watch Kiowa sinking into the deep muck of a shit field, or Curt Lemon hanging in pieces from a tree, and as I write about these things, the remembering is turned into a king of rehappening. The bad stuff never stops happening: it lives in its own dimension, replaying itself over and over. But the thing about remembering is that you don’t forget. You take your material where you find it, which is in your life, at the intersection of past and present. The memory-traffic feeds into a rotary up on your head, where it goes in circles for a while, then pretty soon imagination flows in and the traffic merges and shoots off down a thousand different streets. As a writer, all you can do is pick a street and go for the ride, putting things down as they come at you. That’s the real obsession. All those stories.
+Stories are for joining the past to the future. Stories are for those late hours in the night when you can’t remember how you got from where you were to where you are. Stories are for eternity, when memory is erased, when there is nothing to remember except the story.
+(32-38), (179-180).
+</mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -344,7 +356,7 @@ February 14 1990
                             <outlet property="delegate" destination="bwh-U2-5Eh" id="ws9-xR-6GZ"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="Ipz-8g-OZn"/>
+                    <navigationItem key="navigationItem" title="Gallery" id="Ipz-8g-OZn"/>
                     <connections>
                         <outlet property="galleryCollectionView" destination="Ccz-Xd-eHh" id="Y7V-yl-Sio"/>
                     </connections>
@@ -365,14 +377,14 @@ February 14 1990
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbh-mg-ytN">
-                                <rect key="frame" x="139" y="490" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbh-mg-ytN">
+                                <rect key="frame" x="16" y="509" width="288" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="VietnamVeteranSample" translatesAutoresizingMaskIntoConstraints="NO" id="Gal-4g-IsG">
-                                <rect key="frame" x="0.0" y="64" width="320" height="418"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="437"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -414,7 +426,7 @@ February 14 1990
         <!--Gallery-->
         <scene sceneID="DVs-Jj-JcS">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AcG-GI-iAe" sceneMemberID="viewController">
+                <navigationController title="Gallery" automaticallyAdjustsScrollViewInsets="NO" id="AcG-GI-iAe" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Gallery" image="galleryIcon" id="iLP-Qr-4AW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nfI-1b-buw">
@@ -437,5 +449,6 @@ February 14 1990
         <image name="emailIcon" width="29" height="28"/>
         <image name="galleryIcon" width="29" height="28"/>
         <image name="homeIcon" width="29" height="28"/>
+        <image name="timobrienpic" width="960" height="748"/>
     </resources>
 </document>
