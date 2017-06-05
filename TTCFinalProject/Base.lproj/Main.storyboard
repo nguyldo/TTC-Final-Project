@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,34 +23,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nguyen Do, Michael Xue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLR-kt-fV2">
-                                <rect key="frame" x="16" y="20" width="137" height="14.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Tim O'Brien" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Clo-4D-imY">
-                                <rect key="frame" x="16" y="50.5" width="288" height="28"/>
-                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="timobrienpic" translatesAutoresizingMaskIntoConstraints="NO" id="91T-Z8-D8u">
-                                <rect key="frame" x="21" y="180" width="278" height="213"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timobrienpic" translatesAutoresizingMaskIntoConstraints="NO" id="Lt8-rp-Pbz">
+                                <rect key="frame" x="0.0" y="160" width="320" height="248.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Lt8-rp-Pbz" secondAttribute="height" multiplier="308:239" id="jcJ-sO-fT7"/>
+                                </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Tim O'Brien" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syD-GZ-aOK">
+                                <rect key="frame" x="16" y="28" width="288" height="29"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michel Xue, Nguyen Do" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ith-HA-2DQ">
+                                <rect key="frame" x="16" y="65" width="288" height="19"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="91T-Z8-D8u" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leadingMargin" constant="5" id="3Fp-7v-uIC"/>
-                            <constraint firstItem="91T-Z8-D8u" firstAttribute="top" secondItem="Clo-4D-imY" secondAttribute="bottom" constant="101.5" id="FHF-9M-7FV"/>
-                            <constraint firstItem="Clo-4D-imY" firstAttribute="trailing" secondItem="BWs-e8-iCC" secondAttribute="trailingMargin" id="G0c-ul-5BT"/>
-                            <constraint firstItem="MDl-qv-dqh" firstAttribute="top" secondItem="91T-Z8-D8u" secondAttribute="bottom" constant="126" id="IFb-41-GnY"/>
-                            <constraint firstItem="Clo-4D-imY" firstAttribute="top" secondItem="pLR-kt-fV2" secondAttribute="bottom" constant="16" id="NQf-Ry-HMd"/>
-                            <constraint firstItem="pLR-kt-fV2" firstAttribute="top" secondItem="HnK-fP-G0m" secondAttribute="bottom" id="Rno-ol-phl"/>
-                            <constraint firstItem="Clo-4D-imY" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leadingMargin" id="SK6-ad-hub"/>
-                            <constraint firstItem="91T-Z8-D8u" firstAttribute="centerX" secondItem="BWs-e8-iCC" secondAttribute="centerX" id="UTn-Th-RSH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="91T-Z8-D8u" secondAttribute="trailing" constant="5" id="kIa-9P-Gsf"/>
-                            <constraint firstItem="pLR-kt-fV2" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leadingMargin" id="vPK-Q6-L5a"/>
+                            <constraint firstItem="Ith-HA-2DQ" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leadingMargin" id="6Kl-cu-xb9"/>
+                            <constraint firstItem="Lt8-rp-Pbz" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leading" id="8yW-kS-ZYq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ith-HA-2DQ" secondAttribute="trailing" id="Ne6-LJ-qDx"/>
+                            <constraint firstAttribute="trailing" secondItem="Lt8-rp-Pbz" secondAttribute="trailing" id="O6W-yT-kpp"/>
+                            <constraint firstItem="Ith-HA-2DQ" firstAttribute="top" secondItem="syD-GZ-aOK" secondAttribute="bottom" constant="8" id="QCW-hO-rkG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="syD-GZ-aOK" secondAttribute="trailing" id="X6H-pT-P73"/>
+                            <constraint firstItem="syD-GZ-aOK" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leadingMargin" id="glT-3K-hB2"/>
+                            <constraint firstItem="syD-GZ-aOK" firstAttribute="top" secondItem="HnK-fP-G0m" secondAttribute="bottom" constant="8" id="j6j-ny-w9m"/>
+                            <constraint firstItem="Lt8-rp-Pbz" firstAttribute="centerY" secondItem="BWs-e8-iCC" secondAttribute="centerY" id="k9l-Oz-jde"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="homeIcon" id="Jv3-pb-nAy"/>
