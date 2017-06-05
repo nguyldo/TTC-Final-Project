@@ -47,7 +47,7 @@ class GalleryCollectionViewController: UICollectionViewController {
         
         layout.itemSize = CGSize(width: itemWidth, height: itemHeight)
         layout.minimumLineSpacing = 10
-        layout.minimumInteritemSpacing = 10
+        layout.minimumInteritemSpacing = 5
         
         galleryCollectionView.collectionViewLayout = layout
     }
