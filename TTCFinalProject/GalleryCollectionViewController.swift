@@ -14,7 +14,7 @@ fileprivate let screenWidth = UIScreen.main.bounds.width
 class GalleryCollectionViewController: UICollectionViewController {
 
     @IBOutlet weak var galleryCollectionView: UICollectionView!
-    private var images = [#imageLiteral(resourceName: "timobrienpic"), #imageLiteral(resourceName: "warsoldierimage"), #imageLiteral(resourceName: "vietnamjunglepic"), #imageLiteral(resourceName: "soldiershelicopterpic"), #imageLiteral(resourceName: "vietnamhelicopterbattlepic"), #imageLiteral(resourceName: "riverpic"), #imageLiteral(resourceName: "soldiershavingfunpic"), #imageLiteral(resourceName: "soldierfacepic"), #imageLiteral(resourceName: "vietnamesefamilypic"), #imageLiteral(resourceName: "carryingsoldierpic"), #imageLiteral(resourceName: "soldiersintrenchpic")]
+    private var images = [#imageLiteral(resourceName: "warsoldierimage"), #imageLiteral(resourceName: "vietnamjunglepic"), #imageLiteral(resourceName: "soldiershelicopterpic"), #imageLiteral(resourceName: "timandelroy"), #imageLiteral(resourceName: "vietnamhelicopterbattlepic"), #imageLiteral(resourceName: "riverpic"), #imageLiteral(resourceName: "vietnamesesoldier"), #imageLiteral(resourceName: "soldiershavingfunpic"), #imageLiteral(resourceName: "soldierfacepic"), #imageLiteral(resourceName: "vietnamesefamilypic"), #imageLiteral(resourceName: "carryingsoldierpic"), #imageLiteral(resourceName: "soldiersintrenchpic")]
     let galleryData = GalleryData()
     
     override func viewDidLoad() {
