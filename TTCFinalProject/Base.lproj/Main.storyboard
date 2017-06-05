@@ -30,13 +30,13 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inside Tim O'Brien" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syD-GZ-aOK">
-                                <rect key="frame" x="16" y="28" width="288" height="29"/>
+                                <rect key="frame" x="16" y="58" width="288" height="29"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michel Xue, Nguyen Do" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ith-HA-2DQ">
-                                <rect key="frame" x="16" y="65" width="288" height="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michael Xue, Nguyen Do" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ith-HA-2DQ">
+                                <rect key="frame" x="16" y="95" width="288" height="19"/>
                                 <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -51,7 +51,7 @@
                             <constraint firstItem="Ith-HA-2DQ" firstAttribute="top" secondItem="syD-GZ-aOK" secondAttribute="bottom" constant="8" id="QCW-hO-rkG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="syD-GZ-aOK" secondAttribute="trailing" id="X6H-pT-P73"/>
                             <constraint firstItem="syD-GZ-aOK" firstAttribute="leading" secondItem="BWs-e8-iCC" secondAttribute="leadingMargin" id="glT-3K-hB2"/>
-                            <constraint firstItem="syD-GZ-aOK" firstAttribute="top" secondItem="HnK-fP-G0m" secondAttribute="bottom" constant="8" id="j6j-ny-w9m"/>
+                            <constraint firstItem="syD-GZ-aOK" firstAttribute="top" secondItem="HnK-fP-G0m" secondAttribute="bottom" constant="38" id="j6j-ny-w9m"/>
                             <constraint firstItem="Lt8-rp-Pbz" firstAttribute="centerY" secondItem="BWs-e8-iCC" secondAttribute="centerY" id="k9l-Oz-jde"/>
                         </constraints>
                     </view>
@@ -102,7 +102,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="3411.5" id="47W-SJ-bSp"/>
                                         </constraints>
-                                        <mutableString key="text">My Final Day on the Rainy River
+                                        <string key="text">My Final Day on the Rainy River
 June 28, 1968
  
 On my last full day, the sixth day, the old man took me out fishing on the Rainy River. The afternoon was sunny and cold. It struck me then that he must’ve planned it. I’ll never be certain, of course, but I think he meant to bring me up against the realities, to guide me across the river and to take me to the edge and to stand a kind of vigil as I chose a life for myself. Would you jump? Would you feel pity for yourself? Would you think about your family and your childhood and your dreams and all you’re leaving behind? Would it hurt? Would it feel like dying? Would you cry, as I did? 
@@ -135,7 +135,7 @@ It’s time to be blunt. I’m forty-three years old, true, and I’m a writer n
 ‘Daddy, tell the truth,’ Kathleen can say, ‘did you ever kill anybody?’ And I can say, honestly, ‘Of course not.’ Or I can say, honestly, ‘Yes.’
 Much of it is hard to remember. I sit at this typewriter and stare through my words and watch Kiowa sinking into the deep muck of a shit field, or Curt Lemon hanging in pieces from a tree, and as I write about these things, the remembering is turned into a king of rehappening. The bad stuff never stops happening: it lives in its own dimension, replaying itself over and over. But the thing about remembering is that you don’t forget. You take your material where you find it, which is in your life, at the intersection of past and present. The memory-traffic feeds into a rotary up on your head, where it goes in circles for a while, then pretty soon imagination flows in and the traffic merges and shoots off down a thousand different streets. As a writer, all you can do is pick a street and go for the ride, putting things down as they come at you. That’s the real obsession. All those stories.
 Stories are for joining the past to the future. Stories are for those late hours in the night when you can’t remember how you got from where you were to where you are. Stories are for eternity, when memory is erased, when there is nothing to remember except the story.
-(32-38), (179-180)</mutableString>
+(32-38), (179-180)</string>
                                         <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
